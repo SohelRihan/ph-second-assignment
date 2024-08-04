@@ -51,10 +51,49 @@
     }
     .short-join{
         display: block;
-        width: 170px;
+        width: 10.625rem;
     }
     .download-btn{
-        width: 170px;
+        width: 10.625rem;
         padding: 1rem 1rem;
+    }
+    .banner-img{
+        width: calc(100% - 40px);
+        margin: 30px 20px 0 20px;
+    }
+    .banner-cart-one{
+        width: 8.75rem;
+        height: 4.375rem;
+        margin-top: -37.25rem;
+        margin-left: 13.125rem;
+        border: 1px solid red;
+    }
+    .cart-one-title{
+        font-size: 1.825rem;
+    }
+    .cart-one-text{
+        font-size: 0.56rem;
+    }
+    .banner-cart-two{
+        width: 9.375rem;
+        height: 3.75rem;
+        margin-top: -21.875rem;
+        margin-left: 0.625rem;
+        border: 1px solid red;
+    }
+    .cart-two-title{
+        font-size: 1.125rem;
+        letter-spacing: 1px;
+    }
+    .cart-two-text{
+        font-size: 0.75rem;
+    }
+    .ball{
+        /* position: absolute;
+        margin-top: -30px; */
+        width: 2.1875rem;
+        height: 2.1875rem;
+        margin-left: -.625rem;
+        margin-top: 0.3125rem;
     }
 }
