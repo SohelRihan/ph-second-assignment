@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px){
+    .menu-bar{
+        display: none;
+    }
+    .humburger-menu{
+        display: block;
+    }
+    .humburger-menu i{
+        font-size: 22px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: calc(100% - 40px);
+
+        /* margin-left: 0;
+        margin-right: 0; */
+        /* margin: 1.25rem; */
+        /* margin: 3.125rem; */
+        margin: 3.125rem 1.25rem;
+        padding-top: 2rem;
+    }
+    .header-banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-banner h1{
+        font-size: 2.5rem;
+    }
+    .banner-left{
+        margin: 0;
+        /* width: 352px; */
+        height: 335px;
+        width: calc(100% - 40px);
+        /* gap: 71px; */
+        border: 1px solid red;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* margin: 51px 20px 48px 20px; */
+    }
+    .banner-left > h1{
+        width: 17.8rem;
+        height: 8.125rem;
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+    }
+    .long-join{
+        display: none;
+    }
+    .short-join{
+        display: block;
+        width: 170px;
+    }
+    .download-btn{
+        width: 170px;
+        padding: 1rem 1rem;
+    }
+}

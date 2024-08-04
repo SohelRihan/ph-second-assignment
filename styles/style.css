@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* shared styles */
+  img{
+    width: 100%;
+    /* height: 100%; */
+  }
+  .primary-text{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 1rem 2.5rem ;
+    border-radius: 2.6rem ;
+    width: 14rem;
+    height: 3.3rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.125rem;
+    border: none;
+  }
+   
+  /* Header part */
+
+  .main-container{
+    max-width: 1440px;
+    background-color: #000000;
+    margin: 0 auto;
+  }
+  .header-container{
+    background:linear-gradient(#000000, #434343, #000000);
+    /* height: 45rem; */
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11.875rem;
+    margin-right: 11.875rem;
+    padding-top: 3.56rem;
+
+  }
+  .menu-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.43rem;
+    padding: 4px;
+    gap: 3rem;
+  }
+  nav h3{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+  }
+  nav button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: .5rem 1.25rem;
+    border-radius: 2.8rem;
+    border: none;
+  }
+  .humburger-menu{
+    width: 1rem;
+    height: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+    display: none;
+  }
+  .header-banner{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .header-banner h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 4.875rem ;
+  }
+  .extra-font{
+    
+  }
+  .banner-left{
+    width: 37.5rem;
+    /* width: 50%; */
+    height: 27.5rem;
+    margin: 6rem 5.5rem 4.75rem 11.8rem;
+  }
+  .first-banner-text{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .banner-img{
+    margin-bottom: 0;
+    /* width: 50%; */
+    width: 21.8rem;
+    margin-top: 2rem;
+    margin-right: 13.375;
+    position: relative;
+  }
+  .banner-cart-one{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: -28.125rem;
+    margin-left: 14.375rem;
+    border: 1px solid 
+    rgba(255, 255, 255, 0.1);
+    width: 11.5rem;
+    height: 5.125rem;
+    border-radius: 12px;
+    text-align:start;
+    padding-top: 1rem;
+    padding-left: 1.56rem;
+    backdrop-filter:blur(5px);
+  }
+  .cart-one-title{
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .cart-one-text{
+    font-weight: 400;
+    font-size: 0.8125rem;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .banner-cart-two{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: -12rem;
+    margin-left: -7.375rem;
+    border: 1px solid 
+    rgba(255, 255, 255, 0.1);
+    width: 11.5rem;
+    height: 5rem;
+    border-radius: 12px;
+    text-align:start;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    display: flex;
+    backdrop-filter:blur(5px);
+  }
+  .ball{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(230, 83, 60, 1);
+    margin-right: 0.75rem;
+    margin-top: 0.75rem;
+  }
+  .cart-two-title{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgba(250, 250, 249, 1);
+  }
+  .cart-two-text{
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    color: rgba(239, 237, 232, 0.65);
+  }
+  .text-menu{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .banner-text{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+  .short-join{
+    display: none;
+  }
+  .download-btn{
+    /* background-color: black; */
+    /* background:linear-gradient(#000000, #434343, #000000); */
+    background: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
+    padding: 1rem 2.5rem ;
+    border-radius: 2.6rem ;
+    width: 14rem;
+    height: 3.3rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-left: 14px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+
+  /* habit styles start */
+
+  .habit-container{
+    background-color: black;
+    width: 65.25rem;
+    height: 28.25rem;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+  }
+  .habit-title-container{
+    text-align: center;
+    margin-bottom: 3.625rem;
+  }
+  .habit-title, .run-title{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  .habit-last-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 65.25rem;
+    height: 18rem;
+    gap: 2.5rem;
+    
+  }
+  .habit-cart{
+    width: 14.37rem;
+    height: 18rem;
+    text-align: center;
+  }
+  .habit-last-title{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+  }
+  .habit-img{
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 11.25rem;
+    height: 11.25rem;
+    margin-bottom: 1.875rem;
+  }
+
+  /* run section styles */
+  .run-container{
+    background-color: rgba(34, 34, 34, 1);
+    width: 66.25rem;
+    height: 23.18rem;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .run-title-sec{
+    margin-top: 2.5rem;
+    margin-right: 10.31rem;
+    margin-left: 55px;
+    width: 28.125rem;
+    height: 18.75rem;
+  }
+  .run-title{
+    height: 116px;
+  }
+  .run-text{
+    margin-top: 14px;
+    margin-bottom: 34px;
+  }
+  .run-img img{
+    /* width: 28rem;
+    height: 19.5rem; */
+    margin-top: 1.875rem;
+    margin-left: -1.875rem;
+    border-radius: 1.125rem;
+    height: 18.75rem;
+  }
+
