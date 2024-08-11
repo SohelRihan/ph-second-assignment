@@ -64,8 +64,10 @@
     .banner-cart-one{
         width: 8.75rem;
         height: 4.375rem;
-        margin-top: -37.25rem;
-        margin-left: 13.125rem;
+        /* margin-top: -37.25rem; */
+        margin-top: -150%;
+        /* margin-left: 13.125rem; */
+        margin-left: 55%;
         border: 1px solid red;
     }
     .cart-one-title{
@@ -77,8 +79,10 @@
     .banner-cart-two{
         width: 9.375rem;
         height: 3.75rem;
-        margin-top: -21.875rem;
-        margin-left: 0.625rem;
+        /* margin-top: -21.875rem; */
+        margin-top: -93%;
+        /* margin-left: 0.625rem; */
+        margin-left: 5%;
         border: 1px solid red;
     }
     .cart-two-title{
