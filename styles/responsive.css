@@ -11,14 +11,19 @@
     nav{
         display: flex;
         justify-content: space-between;
-        width: calc(100% - 40px);
-
-        /* margin-left: 0;
-        margin-right: 0; */
+        /* width: calc(100% - 40px); */
+        /* width: calc(100% - 40px); */
+        width: calc(80%);
+        margin-left: 5%;
+        margin-right: 15%;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        /* margin: 3.125rem 0; */
         /* margin: 1.25rem; */
         /* margin: 3.125rem; */
-        margin: 3.125rem 1.25rem;
+        /* margin: 3.125rem 1.25rem; */
         padding-top: 2rem;
+        border: 1px solid red;
     }
     .header-banner{
         grid-template-columns: repeat(1, 1fr);
@@ -30,11 +35,12 @@
         margin: 0;
         /* width: 352px; */
         height: 335px;
-        width: calc(100% - 40px);
+        /* width: calc(100% - 40px); */
+        width: 80%;
         /* gap: 71px; */
         border: 1px solid red;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5%;
+        margin-right: 15%;
         /* margin: 51px 20px 48px 20px; */
     }
     .banner-left > h1{
@@ -52,23 +58,33 @@
     .short-join{
         display: block;
         width: 10.625rem;
+        font-size: .875rem;
+        padding: .5rem .5rem;
     }
     .download-btn{
         width: 10.625rem;
-        padding: 1rem 1rem;
+        font-size: .875rem;
+        padding: .5rem .5rem;
     }
     .banner-img{
-        width: calc(100% - 40px);
-        margin: 30px 20px 0 20px;
+        /* width: calc(100% - 40px); */
+        /* margin: 30px 20px 0 20px; */
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 15%;
+        border: 1px solid red;
     }
     .banner-cart-one{
-        width: 8.75rem;
+        width: 8.25rem;
         height: 4.375rem;
+        padding: 5px 0 5px 5px;
         /* margin-top: -37.25rem; */
         margin-top: -150%;
         /* margin-left: 13.125rem; */
         margin-left: 55%;
-        border: 1px solid red;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: auto;
     }
     .cart-one-title{
         font-size: 1.825rem;
@@ -77,13 +93,12 @@
         font-size: 0.56rem;
     }
     .banner-cart-two{
-        width: 9.375rem;
+        width: 8.5rem;
         height: 3.75rem;
         /* margin-top: -21.875rem; */
         margin-top: -93%;
         /* margin-left: 0.625rem; */
         margin-left: 5%;
-        border: 1px solid red;
     }
     .cart-two-title{
         font-size: 1.125rem;
@@ -99,5 +114,38 @@
         height: 2.1875rem;
         margin-left: -.625rem;
         margin-top: 0.3125rem;
+    }
+    .habit-container{
+        /* width: calc(100% - 80px); */
+        width: 90%;
+        height: auto;
+        /* margin-left: 5%;
+        margin-right: 15%; */
+        margin-top: 0;
+        border: 1px solid red;
+    }
+    .habit-title{
+        font-size: 1.8rem;
+        line-height: 2.375rem;
+        width: 100%;
+        border: 1px solid red;
+    }
+    .habit-last-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: calc(100% - 80px);
+        margin-left: 40px;
+        margin-right: 40px;
+        place-items: center;
+        height: auto;
+    }
+    .habit-text{
+        /* width: calc(100% - 160px);
+        margin-left: 80px;
+        margin-right: 80px; */
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 0.875rem;
+        letter-spacing: 2px;
+        border: 1px solid red;
     }
 }
