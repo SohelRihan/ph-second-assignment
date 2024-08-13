@@ -303,6 +303,47 @@
   border: 1px solid red;
  }
  .bmi-title{
-  font-size: 48px;
+  font-size: 3rem;
+  font-weight: 900;
   color: rgba(255, 255, 255, 1);
+ }
+ .bmi-lower-container{
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+  display: flex;
+  justify-content: space-evenly;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  padding: 5% 0;
+  border: 1px solid red;
+ }
+ .chart-title{
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 1);
+ }
+ .bmi-right-text{
+  margin-top: 1rem;
+  margin-bottom: 2.125rem;
+ }
+ table{
+  border-collapse: collapse;
+  margin-top: 3.25rem;
+ }
+ td, th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px 5px 5px;
+ }
+ th{
+  font-weight: 500;
+  font-size: 1rem;
+  color: 
+  rgba(255, 255, 255, 1);
+  text-align: start;
+ }
+ form{
+  margin-bottom: 2rem;
  }

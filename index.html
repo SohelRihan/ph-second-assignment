@@ -95,9 +95,62 @@
                     <h3 class="bmi-title">BMI Calculator</h3>
                     <p class="primary-text">BMI is a simple calculation that uses a person's height and weight to designate a classification</p>
                 </div>
-                <div>
-                    <div class="bmi-left"></div>
-                    <div class="bmi-right"></div>
+                <div class="bmi-lower-container">
+                    <div class="bmi-left">
+                        <h6 class="chart-title">BMI Calculator Chart</h6>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI </th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="bmi-right">
+                        <h6 class="chart-title">Calculate your BMI</h6>
+                        <p class="primary-text bmi-right-text"> Calculate BMI by dividing weight in pounds (lb) by height in inches (in)<br>squared and multiplying by a conversion factor of 703.</p>
+                        <form action="">
+                            <div>
+                                <input type="number" name="" id="" placeholder="Height/cm" required>
+                                <input type="number" name="" id="" placeholder="Weight/kg" required>
+                            </div>
+                            <div><input type="number" name="" id="" placeholder="Age" required>
+                                <label for="Sex"></label>
+                                <select name="" id="Sex" required>
+                                    <option value="Sex">Sex</option>
+                                    <option value="Sex">Male</option>
+                                    <option value="Sex">Female</option>
+                                </select>
+                            </div>
+                           <div> <label for="activity"></label>
+                            <select name="" id="activity" >
+                                <option value="activity">Select an activity factor</option>
+                                <option value="activity">A</option>
+                                <option value="activity">B</option>
+                            </select>
+                        </div>
+                        </form>
+                        <button class="btn-primary">Calculate</button>
+                    </div>
                 </div>
             </section>
             <!-- end BMI calculator -->
