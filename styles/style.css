@@ -346,4 +346,41 @@
  }
  form{
   margin-bottom: 2rem;
+  border: 1px solid red;
  }
+ .form-first{
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 12px 40px 12px 20px;
+  border-radius: .5rem;
+  margin-bottom: 10px;
+  gap: 10px;
+  /* border: 1px solid red; */
+ }
+ .form-second{
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 12px 40px 12px 20px;
+  border-radius: .5rem;
+  margin-bottom: 10px;
+ }
+ .form-third{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 12px 40px 12px 20px;
+  border-radius: .5rem;
+ }
+   .form-gender{
+    width: 49.5%;
+   }
