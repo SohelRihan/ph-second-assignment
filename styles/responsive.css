@@ -228,4 +228,44 @@
         display: flex;
         justify-content: space-between;
     }
+    /* trainer responsive */
+
+    .trainer-title-section{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .trainer-title{
+        font-size: 2rem;
+        margin-bottom: .875rem;
+    }
+    .trainer-lower-section{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 15%;
+        border: 1px solid red;
+    }
+    .trainer-one{
+        display: none ;
+    }
+    .trainer-four{
+        display: none;
+    }
+    .second-info{
+        margin-top: -18%;
+        margin-left: 5%;
+    }
+    .third-info{
+        margin-top: -18%;
+        margin-left: 5%;
+    }
+    .fifth-info{
+        margin-top: -18%;
+        margin-left: 5%;
+    }
+    .six-info{
+        margin-top: -18%;
+        margin-left: 5%;
+    }
 }
