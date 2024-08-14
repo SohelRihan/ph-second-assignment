@@ -175,4 +175,57 @@
     .run-button{
         width: 100%;
     }
+    /* bmi responsive */
+
+    .bmi-title-sec{
+        border: 1px solid red;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .bmi-title{
+        font-size: 2rem;
+    }
+    .bmi-lower-container{
+        flex-direction: column;
+        /* padding: 40px 20px; */
+        width: auto;
+        border: 1px solid red;
+    }
+    .bmi-left{
+        padding: 0 4%;
+    }
+    table{
+        border: 1px solid red;
+        width: 80%;
+        margin-bottom: 2.625rem;
+    }
+    .bmi-right{
+        border: 1px solid blue;
+        width: 92%;
+        padding: 0 4%;
+    }
+    .form-height{
+        width: 28%;
+        /* margin-right: .75rem; */
+    }
+    .form-weight{
+        width: 28%;
+    }
+    .form-first-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form-age{
+        width: 28%;
+    }
+    .form-gender{
+        width: 45%;
+    }
+    .form-second-div{
+        display: flex;
+        justify-content: space-between;
+    }
 }
