@@ -258,6 +258,26 @@
         margin-top: -18%;
         margin-left: 5%;
     }
+
+    /* facility responsive */
+
+    .facility-section{
+        width: 70%;
+        margin-left: 10%;
+        margin-right: 20%;
+        flex-direction: column;
+    }
+    .owner-img img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .owner-div{
+        margin-top: -20%;
+    }
+    .new-page{
+        margin: 0 auto;
+    }
+
     /* footer responsive */
 
     footer{
