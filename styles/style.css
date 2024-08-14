@@ -459,3 +459,50 @@
       font-weight: 900;
       color: rgba(255, 255, 255, 1);
     }
+
+    /* Footer styles */
+
+    footer{
+      margin-top: 4.75rem;
+      padding: 4.125rem 7rem 2.25rem 7rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      height: auto;
+    }
+    .footer-title-section{
+      width: 40%;
+      /* margin-left: 5%;
+      margin-right: 35%; */
+    }
+     .main-footer{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 5rem;
+      
+     }
+    .footer-title{
+      font-size: 4.375rem;
+      font-weight: 800;
+      font-style: italic;
+      color: rgba(230, 83, 60, 1);
+      margin-bottom: 1.25rem;
+    }
+    .lower-heading{
+      font-weight: 700;
+      font-size: 2rem;
+      color: rgba(255, 255, 255, 1);
+      margin-bottom: 2.4375rem;
+  }
+    .lower-anchor{
+      font-size: 1.43rem;
+      font-weight: 400;
+      color:rgba(255, 255, 255, 0.5);
+      text-decoration: none;
+    }
+    .footer-tag{
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.5);
+      text-align: center;
+      margin-top: 2.25rem;
+      /* margin-bottom: 2.25rem; */
+    }
