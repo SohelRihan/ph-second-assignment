@@ -487,6 +487,11 @@
     .facility-anchor{
       display: flex;
     }
+    .lower-list{
+      font-size: 1.43rem;
+      font-weight: 400;
+      color:rgba(255, 255, 255, 0.5);
+    }
     .owner-img img{
       width: 60%;
       border-radius: 1rem;
